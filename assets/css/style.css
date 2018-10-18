@@ -1,0 +1,26 @@
+.container {
+    background-color: aqua;
+    width: 40%;
+    height: 700px;
+    align-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    background-color: pink;
+}
+h4 {
+    background-color: pink;
+    width: 45%;
+}
+.btn {
+    display: inline-block;
+    border: none;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
