@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>TriviaGame - Timed Form</title>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="assets/javascript/app.js"></script>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -14,30 +14,34 @@
     <div class= "container">
         <h1>Majestic Dolphin Trivia!</h1>
 
-        <div>
+      <div>
     <button id="startButton" class="btn"><h5>START</h5></button>
-        </div>
+      </div>
+      <p>Score:</p>
+     <div id="score"></div>
 
      <div> 
   
     <h4>Time Remaining: 28 Seconds</h4>
     
     <h3>A dolphin is a ...?</h3>
-    <p>Shark</p>
-    <p>Mammal</p>
-    <p>Fish</p>
+    <input type="radio" name="q1" value="a"> Shark<br>
+    <input type="radio" name="q1" value="b"> Mammal<br>
+    <input type="radio" name="q1" value="c"> Fish
 
     <h3>Which of these is the largest dolphin?</h3>
-    <p>Killer Whale</p>
-    <p>Bottlenose Dolphin</p>
-    <p>Stripped Dolphin</p>
-    
+    <input type="radio" name="q2" value="a"> Killer Whale<br>
+    <input type="radio" name="q2" value="b"> Bottlenose Dolphin<br>
+    <input type="radio" name="q2" value="c"> Stripped Dolphin
+   
     <h3>Dolphins breath with...?</h3>
-    <p>Gills</p>
-    <p>Mouthes</p>
-    <p>Blowhole</p>
+    <input type="radio" name="q3" value="a"> Gills<br>
+    <input type="radio" name="q3" value="b"> Mouthes<br>
+    <input type="radio" name="q3" value="c"> Blowhole<br>
+    <button id="onsubmit" class="btn"><h4>SUBMIT</h4></button>
     </div>
 </div>
+
 
     
 

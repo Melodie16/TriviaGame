@@ -1,8 +1,19 @@
-$("#startButton").on("click", function() {
 
-    console.log("start");
-})
+$(document).on("click", function() {
+    var score = 0;
+    var timer = 0;
+    var numofQuestions = 3;
+    var ansArr = ['b','a','c'];
+    var questions = ['q1','q2','q3'];
 
+  for(var i = 1; i <= numofQuestions.length; i++) {
+      if(response == questions[i].answer) {
+        score++;
+      }
+      var score = document.getElementById('score');
+      results.innerHTML= score
+  }
+});
 //create an array with question and answers in an object as an array
 //create empty variable var score=0; and var timer=15;
 
